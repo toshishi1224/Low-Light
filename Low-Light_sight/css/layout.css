@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@import "reset.css";
+
+@import "font.css";
+
+
+
+/* ================
+
+BASIC
+
+================== */
+
+
+
+body{
+
+	background: url(../images/bg_body.gif);
+
+	color: #333;
+
+}
+
+
+
+
+
+.boxA,
+
+.boxB{
+
+	width:300px;
+
+	height:300px;
+
+	background:#ffc;
+
+	text-align:center;
+
+	border:1px solid #999;
+
+}
+
+
+
+.boxA{
+
+	background:#ffc;
+
+}
+
+
+
+.boxB{
+
+	background:#fcc;
+
+}
+
+
+
+
+
+.info{
+
+	background:#069;
+
+	color:#fff;
+
+	padding:10px;
+
+	width:450px;
+
+	margin:60px 15px 0;
+
+}
+
+
+
+.info2{
+
+	background:#069;
+
+	color:#fff;
+
+	padding:10px;
+
+	width:450px;
+
+	margin:10px 15px 0;
+
+}
+
+
+
+.bold{
+
+	font-weight:bold;
+
+	color:#ff0;
+
+}

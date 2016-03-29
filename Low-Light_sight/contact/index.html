@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>Profile</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="../css/font.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/layout.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/reset.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="all"/>
+<link rel="stylesheet" type="text/javascript" href="sendmail.php" media="all">
+
+<body>
+<wrapper>
+  <div id="cowrapper">
+    <div id="hcwrapper">
+      <div id="header">
+        <div id="logo" class="clearfix">
+          <h1><a href="../index.html"><img src="../images/IR_logo2.png" width="110" height="121" alt="Indie Room" /></a></h1>
+        </div>
+        <div class="sns clearfix">
+           <!--fecebook -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        <!--//fecebook -->
+        <!--twitter-->
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="toshijoppi" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <!--//twitter -->
+        </div>
+        <div id="main_nav">
+          <ul>
+            <li class="offer"><a href="../Offer/index.html"><span>OFFER</span></a></li>
+            <li class="releasa"><a href="../Release/index.html"><span>RELEASA</span></a></li>
+            <li class="profile"><a href="../Profile/index.html"><span>PROFILE</span></a></li>
+            <li class="contact"><a href="../contact/index.html"><span>CONTACT</span></a></li>
+          </ul>
+        </div><!--header -->
+      </div><!--//main_nav -->
+          
+      <div id="con_tittle">
+      <img src="../images/contact_tittle_03_03.png" width="978" height="337" alt="メッセージ" /></div>
+      <!--名前の下にスペースをもってくる、フォームに幅を設定、テキストアラインで右寄せにする
+ -->
+      <form method="post" action="./sendmail.php">
+        <div id="meil_name">お名前／会社名</div><input class="name-s" type="text" name="お名前">
+        <div id="meil_address">メールアドレス</div><input class="mail-s" type="text" name="Email">
+        <div id="meil_coment">ご質問内容<br>
+          <textarea name="text" rows="4" cols="40"></textarea>
+        </div>
+        <div id="meil_sendBtn"><input type="submit" value="送信"></div>
+            
+      </form>
+          
+        </div>
+  </div>
+      <!--//hcwrapper -->
+    
+ <!--フッターを下にそろえるには、hcwrapperに高さを設定する！ -->   
+    <!--#fotter -->
+    <div id="fotter" class="clearfix">
+      <div id="fotter_contents">
+        <div class="company_info">
+          <p class="fotter_logo"><img src="../images/IR_logo2.png" width="95" height="99" alt="フッターロゴ" /></p>
+          <div class="company_info_Text">
+            <p id="companyAddress">〒163-0014<br />
+              東京都中野区弥生町1−30−15</p>
+            <p class="compayTel">☎090-4089-9183</p>
+            <p class="time">Time. 10:00-18:00/Mon-Fri</p>
+          </div>
+        </div>
+        
+        <div id="siteMap">
+          <ul>
+            <li><a href="../Copy of Release/index.html" style="text-decoration:none;">HOME</a> |</li>
+            <li><a href="../Offer/index.html" style="text-decoration:none;">OFFER</a> |</li>
+            <li><a href="../Release/index.html" style="text-decoration:none;">RELEASE</a> |</li>
+            <li><a href="../Profile/index.html" style="text-decoration:none;">PROFILE</a> |</li>
+            <li><a href="#" style="text-decoration:none;">CONTACT</a> </li>
+          </ul>
+        </div>
+      </div><!--//fotter_contents -->
+      
+      <p class="copyRight">COPYLRIGHT@Indie Room.</p>
+</div>
+</wrapper>
+</body>
+</html>

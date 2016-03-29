@@ -1,0 +1,2074 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+
+
+
+body{
+	width:100%;
+	height:100%;
+	background-color:#fff;
+}
+
+
+
+/*#home_back{
+
+	background-image:url(../images/home_news_tittle_07.png);
+
+	background-repeat:no-repeat;
+
+	background-position:250px 980px;
+
+	margin:0 auto;
+
+	}
+
+*/	
+
+#wrapper{
+
+	margin:0 auto;
+
+}
+
+
+
+#hcwrapper{
+
+	width:100%;
+
+	margin:0 auto;
+
+	}
+
+	
+
+
+
+	
+
+#header{
+
+    height:13em;
+    background-color:#191818;
+
+	}
+
+#logo{
+	padding:0 0 0  1.1em;
+	float:left;
+	}
+
+	
+
+.sns{
+
+	width:80px;
+
+	height:20px;
+
+	padding-top:30px;
+
+	padding-left:500px;
+
+	margin-right:10px;
+
+	float:right;
+
+}
+
+
+
+.sns ul{
+
+	float:left;
+
+	padding-top:2px;
+
+	}
+
+
+
+.sns ul li{
+
+	float:left;
+
+	margin-left:10px;
+
+	}
+
+	
+
+
+
+#main_nav{
+
+	width:auto;
+
+	height:auto;
+
+	padding:2em 2em;
+
+	float:right;
+
+	}
+
+
+
+#main_nav ul li{
+	float:left;
+	border-left:solid 1px #555;
+	border-right:solid 1px #555;
+
+}
+#main_nav ul li+li{
+	border-left: 0;
+    border-right: 1px solid #333;
+}
+
+
+.offer,.releasa,.profile,.contact {
+    font-size:1.7em;
+	font-family: 'Montserrat', sans-serif;
+    color:#555;
+    padding:2em 0.8em;
+}
+.offer,.releasa,.profile,.contact,a {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+.offer,.releasa,.profile,.contact,hover {
+    color:#555;
+}
+
+.offer a{
+
+	display:block;
+
+	/* background-image:url(../images/G_nav.png); --> */
+
+	background-position:0 0;
+
+	background-repeat:no-repeat;
+
+	text-decoration:none;
+
+	color:#555;
+
+	}	
+
+
+
+.offer a:hover{
+
+	/* background-image:url(../images/G_nav.png);
+
+	background-position:0 -76px; */
+
+	color:#888;
+}
+
+
+
+.releasa a{
+
+	display:block;
+
+
+
+	text-decoration:none; 
+	color:#555;
+
+	}	
+
+	
+
+.releasa a:hover{
+
+	color:#888;
+
+}
+
+
+
+.profile a{
+
+	display:block;
+
+	width:100%;
+
+	height:100%;
+
+	/* background-image:url(../images/G_nav.png); */
+
+	background-position:-308px 0;
+
+	background-repeat:no-repeat;
+
+	text-decoration:none;
+	color:#555;
+	}
+
+
+
+.profile a:hover{
+
+	/* background-image:url(../images/G_nav.png); */
+
+	background-position:-308px -76px;
+	color:#888;
+}
+
+
+
+.contact a{
+
+	display:block;
+
+	width:100%;
+
+	/* background-image:url(../images/G_nav.png); */
+
+	background-position:-465px 0;
+
+	background-repeat:no-repeat;
+
+	text-decoration:none;
+	color:#555;
+
+}
+
+
+
+.contact  a:hover{
+
+	/* background-image:url(../images/G_nav.png); */
+
+	background-position:-465px -76px;
+	color:#888;	
+
+}
+
+/*nav_end*/
+/*news*/
+.ticker {
+	margin: 0 auto;
+	padding: 10px;
+	width: 600px;
+	text-align: left;
+	border: #ccc 1px solid;
+	position: relative;
+	overflow: hidden;
+}
+
+.ticker ul {
+	width: 100%;
+	position: relative;
+}
+
+.ticker ul li {
+	width: 100%;
+	display: none;
+}
+/*news_end*/
+.home_tittle{
+
+	width:100%;
+
+	margin:0 auto;
+    display:table;
+
+	}
+
+
+
+#copy{
+
+	width:100%;
+
+	font-size:44px;
+
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+
+	color:#5f5057;
+
+	text-align:center;
+
+	padding-top:20px;
+
+}
+
+
+
+.copy_bd{
+
+	width:850px;
+
+	font-size:21px;
+
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+
+	color:#5f5057;
+
+	margin-left:164px;
+
+	padding-top:7px;
+
+	line-height:110%;
+
+}
+
+#entrance{
+
+	float:right;
+
+	margin:0 auto;
+
+	padding-right:100px;
+
+	margin-top:30px;
+
+	}
+
+#topicArea {
+
+	width: 1200px;
+
+	height: 409px;
+
+	padding-top:10px;
+
+	margin:0 auto 100px;
+
+	position: relative;
+
+	background-image:url(../images/news_box_2_12.png);
+
+	background-repeat:no-repeat;
+
+	color:#333;
+
+	padding:20px;
+
+	float:left;
+
+	/*
+
+	background:#efefed;
+
+	border: 1px solid #ccc;
+
+	border-right: 1px solid #fff;
+
+	border-bottom: 1px solid #353fff535;
+
+	
+
+	-webkit-border-radius: 5px;
+
+	-moz-border-radius: 5px;
+
+	border-radius: 5px;
+
+	-webkit-box-shadow:0 0 2px 3px rgba(200,200,200,0.2) inset;  
+
+    -moz-box-shadow:0 0 2px 3px rgba(200,200,200,0.2) inset;
+
+        box-shadow:0 0 2px 3px rgba(200,200,200,0.2) inset;
+
+		*/
+
+}
+
+
+
+#topicArea a:link{color:#333333;}
+
+#topicArea a:visited{color:#333;}
+
+#topicArea a:hover{color:#993399;}
+
+
+
+#topicArea dl {
+
+	margin-left: 153px;
+
+	padding-right: 38px;
+
+	padding-top:23px;
+
+	font-size: 1em;
+
+}
+
+	
+
+#topicArea dl dt {
+
+	float: left;
+
+	width: 5em;
+
+	padding: 5px 0 5px 1em;
+
+	color:#666;
+
+	font:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+
+/*	text-shadow:
+
+		-1px -1px #333,
+
+		1px -1px #333,
+
+		-1px 1px #333,
+
+		1px 1px #333;
+
+		*/
+
+}
+
+.news_text{
+
+	margin-top:205px;
+
+	font-size:120%;
+
+	float:right;
+
+	margin-right:400px;
+
+}
+
+#topicArea dl dd {
+
+	padding: 5px 0 5px 8.75em;
+
+}
+
+
+
+.news_menu{
+
+	height:20px;
+
+	font-size:100%;
+
+	margin-right:-300px;
+
+	margin-top:5px;
+
+	float:right;
+
+	}
+
+
+
+
+
+
+
+#offer_nav{
+
+	background-image:url(../images/offer_top_v_03.png);
+
+	background-repeat:no-repeat;
+
+	margin:0 auto;
+
+}
+
+/*ここでは開かない*/
+
+
+
+/*offer start*/
+
+h2{
+
+	width:400px;
+
+	height:100px;
+
+	font-size:78px;
+
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+	color:#616142;
+
+	margin-top:-10px;
+
+	padding-left:270px;
+
+	/*position:relative;
+
+	float:right;*/
+
+	}
+
+	
+
+#offer_nav{
+
+	width:920px;
+
+	}	
+
+#offer_nav ul{
+
+	list-style:none;
+
+	margin:0;
+
+	padding:0;
+
+	font-size:40px;
+
+	color:#525243;
+
+}
+
+
+
+#offer_nav ul li{
+
+	width:580px;
+
+	height:54px;
+
+	margin:0;
+
+	padding-top:0;
+
+	}
+
+
+
+
+
+	
+
+/*offer1_start*/
+
+
+
+.merit1_tittle{
+
+	width:400px;
+
+	height:190px;
+
+	margin:0 auto;
+
+	margin-bottom:20px;
+
+	}
+
+	
+
+.merit1_nayami{
+
+	font:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+	font-size:46px;
+
+	float:left;
+
+	padding-left:110px;
+
+	margin-top:15px;
+
+	color:#383814;
+
+	text-shadow:
+
+		-1px -1px #fff,
+
+		1px -1px #fff,
+
+		-1px 1px #fff,
+
+		1px 1px #fff;
+
+}
+
+
+
+	
+
+	
+
+.merit1_nayami_text{
+
+	width:751px;
+
+	height:164px;
+
+	font-size:18px;
+
+	background-image:url(../images/offer_1_a-box_13.png);
+
+	background-repeat:no-repeat;
+
+	margin-left:280px;
+
+	margin-top:0;
+
+	}
+
+
+
+.merit1_nayami_text p{
+
+	padding-top:90px;
+
+	padding-left:90px;
+
+	color:#383814;
+
+	}
+
+
+
+
+
+.merit1_icon_q{
+
+	width:142px;
+
+	height:142px;
+
+	padding-left:120px;
+
+	float:left;
+
+}
+
+
+
+.merit1_hosoku_icon{
+
+	width:36px;
+
+	height:67px;
+
+	margin-left:600px;
+
+	margin-top:-45px;	
+
+	}
+
+	
+
+.merit1_hosoku_text{
+
+	width:400px;
+
+	color:#878754;
+
+	text-indent:1px;
+
+	line-height:1.3;
+
+	margin-left:450px;	
+
+	}
+
+/*nayami_end*/
+
+
+
+.merit1_yazirushi_icon{
+
+	width:141px;
+
+	height:131px;
+
+	margin:0 auto;
+
+	}
+
+
+
+.kaiketsu1{
+
+	width:960px;
+
+	height:200px;
+
+	top:50px;
+
+	margin:0 auto;
+
+	}
+
+
+
+.offer1_kaiketsu_icon{
+
+		margin-bottom:10px;
+
+		padding-top:5px;
+
+		float:left;
+
+}
+
+
+
+.merit1_kaiketsu{
+
+	width:192px;
+
+	height:69px;
+
+	font:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+	font-size:46px;
+
+	float:left;
+
+	padding-left:115px;
+
+	margin-top:15px;
+
+	color:#383814;
+
+	text-shadow:
+
+		-1px -1px #fff,
+
+		1px -1px #fff,
+
+		-1px 1px #fff,
+
+		1px 1px #fff;
+
+}
+
+
+
+.merit1_kaiketsu_text{
+
+	width:751px;
+
+	height:164px;
+
+	font-size:18px;
+
+	background-image:url(../images/offer_1_a-box_22.png);
+
+	background-repeat:no-repeat;
+
+	margin-left:160px;
+
+	margin-top:-10px;
+
+	}
+
+
+
+.merit1_kaiketsu_text p{
+
+	padding-top:90px;
+
+	padding-left:90px;
+
+	color:#383814;
+
+	line-height:1.2;
+
+	}
+
+/*offer1_end*/
+
+
+
+.offer2_tittle{
+
+	padding-left:200px;
+
+	margin:0 auto;
+
+	}
+
+
+
+#offer2{
+
+	width:960px;
+
+	top:50px;
+
+	margin:0 auto;
+
+	}
+
+.merit2_icon_q{
+
+		margin-bottom:10px;
+
+		padding-top:5px;
+
+		float:left;
+
+}
+
+
+
+.merit2_nayami{
+
+	width:192px;
+
+	height:69px;
+
+	font:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+	font-size:46px;
+
+	float:left;
+
+	padding-left:110px;
+
+	margin-top:15px;
+
+	color:#383814;
+
+	text-shadow:
+
+		-1px -1px #fff,
+
+		1px -1px #fff,
+
+		-1px 1px #fff,
+
+		1px 1px #fff;
+
+}
+
+
+
+.merit2_nayami_text{
+
+	width:751px;
+
+	height:164px;
+
+	font-size:18px;
+
+	background-image:url(../images/offer_1_a-box_13.png);	
+
+	background-repeat:no-repeat;
+
+	margin-left:160px;
+
+	margin-top:-10px;
+
+	}
+
+
+
+.merit2_nayami_text p{
+
+	padding-top:90px;
+
+	padding-left:90px;
+
+	color:#383814;
+
+	line-height:1.2;
+
+	}
+
+	
+
+.merit2_yazirushi_icon{
+
+	width:141px;
+
+	height:131px;
+
+	margin:0 auto;
+
+	}
+
+	
+
+.offer2_kaiketsu_icon{
+
+	margin-bottom:10px;
+
+	padding-top:5px;
+
+	float:left;
+
+	}
+
+	
+
+	
+
+.merit2_kaiketsu{
+
+	width:192px;
+
+	height:69px;
+
+	font:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+	font-size:46px;
+
+	float:left;
+
+	padding-left:115px;
+
+	margin-top:10px;
+
+	color:#383814;
+
+	text-shadow:
+
+		-1px -1px #fff,
+
+		1px -1px #fff,
+
+		-1px 1px #fff,
+
+		1px 1px #fff;
+
+		}
+
+	
+
+.merit2_kaiketsu_text{
+
+	width:751px;
+
+	height:164px;
+
+	font-size:18px;
+
+	background-image:url(../images/offer_1_a-box_22.png);
+
+	background-repeat:no-repeat;
+
+	margin-left:160px;
+
+	margin-top:-10px;
+
+	}
+
+	
+
+.merit2_kaiketsu_text p{
+
+	padding-top:90px;
+
+	padding-left:90px;
+
+	color:#383814;
+
+	line-height:1.2;
+
+	}
+
+/*offer2_end*/
+
+
+
+.offer3_tittle{
+
+	padding-left:100px;
+
+	margin:30px auto;
+
+	}
+
+	
+
+#offer3{
+
+	width:960px;
+
+	height:900px;
+
+	}	
+
+	
+
+.price_1{
+
+	width:800px;
+
+	height:100px;
+
+	font-size:64px;
+
+	color:#383814;
+
+	}
+
+	
+
+.price_2{
+
+	width:800px;
+
+	height:30px;
+
+	font-size:22px;
+
+	color:#383814;
+
+	}
+
+
+
+.price2-1{
+
+	width:300px;
+
+	font-size:22px;
+
+	color:#383814;
+
+	margin-left:69px;
+
+	margin-top:
+
+	}
+
+	
+
+.price2-2{
+
+	font-size:22px;
+
+	color:#383814;
+
+	margin-left:69px;
+
+	}	
+
+
+
+#syokihiyou{
+
+	width:800px;
+
+	height:200px;
+
+	margin-top:20px;
+
+	margin-left:80px;
+
+	}
+
+	
+
+.syokihiyou_text{
+
+	margin-left:150px;
+
+	}
+
+#support{
+
+	margin-top:40px;
+
+	margin-left:70px;
+
+	}	
+
+	
+
+.price_3{
+
+	width:800px;
+
+	height:100px;
+
+	font-size:64px;
+
+	color:#383814;
+
+	}
+
+.price_4{
+
+	width:800px;
+
+	height:100px;
+
+	font-size:64px;
+
+	color:#383814;
+
+	margin-top:-30px;
+
+	}
+
+	
+
+.price_5{
+
+	width:800px;
+
+	height:30px;
+
+	font-size:22px;
+
+	color:#383814;
+
+	}
+
+
+
+.price_6{
+
+	width:350px;
+
+	font-size:22px;
+
+	color:#383814;
+
+	margin-left:69px;
+
+	margin-top:1px;
+
+}
+
+
+
+.price_7{
+
+	font-size:22px;
+
+	color:#383814;
+
+	margin-left:69px;
+
+	margin-top:-45px;
+
+}
+
+
+
+.support_contents{
+
+	margin-left:150px;
+
+	}
+
+
+
+#offer4{
+
+	width:960px;
+
+	margin:-60px auto;
+
+	}
+
+.offer4_tittle{
+
+	width:768px;
+
+	margin:0 auto;
+
+	}
+
+/*
+
+.offer4_text{
+
+	width:540px;
+
+	font-size:28px;
+
+	color:#383814;
+
+	margin:0 auto;
+
+	}
+
+*/
+
+#offer4_list{
+
+	width:960px;
+
+	height:350px;
+
+	font-size:36px;
+
+	list-style:none;
+
+	font-size:40px;
+
+	color:#383814;
+
+	}
+
+
+
+.offer4_list1{
+
+	height:91px;
+
+	padding-top:10px;
+
+}
+
+
+
+.offer4_list2{
+
+	height:91px;
+
+	line-height:108%;
+
+}
+
+
+
+.offer4_list3{
+
+	height:91px;
+
+	padding-top:20px;
+
+}
+
+/*offer4_end*/
+
+
+
+#offer5{
+
+	width:700px;
+
+	margin:50px auto;
+
+	}
+
+
+
+.offer5_tittle{
+
+	font-size:66px;
+
+	color:#a89ba1;
+
+	text-align:center;
+
+	}
+
+
+
+.offer5_Line{
+
+	height:0;
+
+	border-style:solid;
+
+	border-color:#a89ba1;
+
+	}
+
+	
+
+.offer5_subtittle{
+
+	width:700px;
+
+	font-size:24px;
+
+	color:#383814;
+
+	text-align:center;
+
+	}
+
+
+
+.offer5_text{
+
+	font-size:16px;
+
+	color:#535327;
+
+	text-align:center;
+
+	}
+
+.offer5_down{
+
+	color:#535327;
+
+	text-align:center;
+
+	}
+
+
+
+/*ここでは開かない*/
+
+
+
+#cotents_R{
+
+	width:960px;
+
+	margin:0 auto;
+
+	}
+
+
+
+.tittle_release{
+
+	margin:0 auto;
+
+	}
+
+	
+
+.app_icon{
+
+	width:165px;
+
+	height:62px;
+
+	float:left;
+
+	margin-top:10px;
+
+	}
+
+
+
+.and_icon{
+
+	float:left;
+
+	width:165px;
+
+	height:62px;
+
+	margin-left:-160px;
+
+	margin-top:84px;
+
+	}		
+
+	
+
+.eng_icon{
+
+	width:149px;
+
+	float:left;
+
+	}
+
+
+
+.engApp_tittle{
+
+	width:200px;
+
+	color:#4d4b4c;
+
+	font-weight:bold;
+
+	font-size:16px;
+
+	float:left;
+
+	margin-top:10px;
+
+	margin-left:25px;
+
+	height:20px;
+
+	}
+
+	
+
+.eng_text{
+
+	width:580px;
+
+	height:100px;
+
+	float:left;
+
+	color:#4d4b4c;
+
+	font-size:16px;
+
+	margin-left:25px;
+
+	padding-top:5px;
+
+	}
+
+
+
+.eng_top{
+
+	height:150px;
+
+	}
+
+
+
+.eng_img1{
+
+	width:309px;
+
+	float:left;
+
+	margin-left:-1px;
+
+	}
+
+
+
+.eng_img2{
+
+	width:311px;
+
+	float:left;
+
+	}
+
+
+
+.eng_img3{
+
+	}
+
+
+
+.app_icon2{
+
+	width:165px;
+
+	height:62px;
+
+	float:left;
+
+	margin-top:10px;
+
+	}
+
+
+
+.and_icon2{
+
+	float:left;
+
+	width:165px;
+
+	height:62px;
+
+	margin-left:-160px;
+
+	margin-top:84px;
+
+	}		
+
+	
+
+.mono_icon{
+
+	width:149px;
+
+	float:left;
+
+	}
+
+
+
+.monoApp_tittle{
+
+	width:200px;
+
+	color:#4d4b4c;
+
+	font-weight:bold;
+
+	font-size:16px;
+
+	float:left;
+
+	margin-top:10px;
+
+	margin-left:25px;
+
+	height:20px;
+
+	}
+
+	
+
+.mono_text{
+
+	width:580px;
+
+	height:100px;
+
+	float:left;
+
+	color:#4d4b4c;
+
+	font-size:16px;
+
+	margin-left:25px;
+
+	padding-top:5px;
+
+	}
+
+
+
+#mono_top{
+
+	height:150px;
+
+	}
+
+
+
+.mono_img1{
+
+	width:309px;
+
+	float:left;
+
+	margin-left:-1px;
+
+	}
+
+
+
+.mono_img2{
+
+	width:312px;
+
+	float:left;
+
+	}
+
+
+
+.mono_img3{
+
+	}
+
+	
+
+#mono_part{
+
+	margin-top:100px;
+
+	margin-bottom:100px;
+
+	}
+
+	
+
+#contents_R_botom{
+
+	width:960px;
+
+	margin:0 auto;
+
+	margin-left:40px;
+
+	margin-top:40px;
+
+	}
+
+
+
+/*Release*/
+
+/*Profile*/
+
+#cotents_P{
+
+	background-image:url(../images/profile_tittle_03_03_03.png);
+
+	background-repeat:no-repeat;
+
+	background-position:100px 10px;
+
+	margin-bottom:100px;
+
+	}
+
+
+
+.tittle_profile{
+
+	float:left;
+
+	margin-left:30px;
+
+	
+
+	}	
+
+	
+
+.pro_top_text{
+
+	position:relative;
+
+	margin-left:530px;
+
+	}
+
+	
+
+.top_text1{
+
+	width:400px;
+
+	font-size:22px;
+
+	color:#5f5057;
+
+	}	
+
+	
+
+.top_text1-1{
+
+	width:600px;
+
+	color:#4d4b4c;
+
+	font-size:16px;
+
+	}
+
+	
+
+#contents_p_botom{
+
+	width:1060px;
+
+	margin:auto;
+
+	height:481px;
+
+	}
+
+
+
+.pro_back{
+
+	position:relative;
+
+	top:-100px;
+
+	}
+
+
+
+/*profile_top*/
+
+
+
+#pro_bottom_text{
+
+	width:750px;
+
+	margin:0 auto;
+
+	}
+
+
+
+#pro_bottom_text h2{
+
+	color:#666;
+
+	font-size:20px;
+
+	height:30px;
+
+	padding-left:0;
+
+	font-weight:normal;
+
+	margin-top:3px;
+
+	}
+
+
+
+
+
+.pro_text_content{
+
+	width:540px;
+
+	color:#4d4b4c;
+
+	font:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+	font-size:14px;
+
+	}
+
+.face_p{
+
+	float:left;
+
+	margin-top:55px;
+
+	}
+
+	
+
+.face_p2{
+
+	float:left;
+
+	margin-top:30px;
+
+	}
+
+.pro_text_box{
+
+	width:540px;
+
+	height:200px;
+
+	margin-left:250px;
+
+	margin-top:55px;
+
+	
+
+	}
+
+
+
+/*
+
+.pro_body{
+
+	background-image:url(../images/profile_back_img_02.png);
+
+	background-repeat:no-repeat;
+
+	background-position:center 490px;
+
+	}
+
+/*
+
+/*mail_form start*/
+
+
+
+#con_tittle{
+
+	width:978px;
+
+	margin:0 auto;
+
+	margin-right:90px;
+
+	}
+
+
+
+#meil_name{
+
+	color:#5f5057;
+
+	font-size:16px;
+
+	margin-left:0;
+
+	}
+
+
+
+#meil_address{
+
+	color:#5f5057;
+
+	font-size:16px;
+
+	margin-left:0;
+
+	}
+
+	
+
+#meil_coment{
+
+	width:430px;
+
+	color:#5f5057;
+
+	font-size:16px;
+
+	margin-left:0;
+
+	}	
+
+
+
+#meil_sendBtn{
+
+	width:430px;
+
+	padding-left:0;
+
+	}
+
+	
+
+form{
+
+	width:900px;
+
+	margin:0 auto;
+
+	}
+
+
+
+.name-s{
+
+	width:300px;
+
+	}
+
+
+
+.mail-s{
+
+	width:300px;
+
+	}
+
+
+
+#cowrapper{
+
+	padding-bottom:50px;
+
+	}
+
+
+
+
+
+/*mail-end ここでは開かない*/
+
+
+
+/*fotter*/
+
+#fotter{
+
+	clear:both;
+
+	width:100%;
+
+	min-width:1260px;
+
+	height:200px;
+
+	background-color:#e2dee1;
+
+	margin:0 auto;
+
+	}
+
+
+
+#fotter_contents{
+
+	width:960px;
+
+	margin:0 auto;
+
+	}
+
+
+
+.company_info{
+
+	float:left;
+
+	width:440px;
+
+	height:160px;
+
+	padding-left:100px;
+
+	}
+
+	
+
+.fotter_logo{
+
+	width:95px;
+
+	height:99px;
+
+	padding-top:45px;
+
+	padding-left:20px;
+
+	float:left;
+
+	}
+
+
+
+.company_info_Text{
+
+	width:250px;
+
+	height:100px;
+
+	float:left;
+
+	margin-left:60px;
+
+	margin-top:50px;
+
+	}	
+
+#companyAddress{
+
+	width:252px;
+
+	height:42px;
+
+	font-size:14px;
+
+	color:#666666;
+
+	}
+
+.compayTel{
+
+	color:#5f5057;
+
+	font-size:18px;
+
+}
+
+
+
+.time{
+
+	width:250px;
+
+	color:#5f5057;
+
+	font-size:14px;
+
+	float:right;
+
+}
+
+
+
+#siteMap{
+
+	height:40px;
+
+	font-size:16px;
+
+	font-family:Verdana, Geneva, sans-serif;
+
+	padding-top:85px;
+
+	padding-right:300px;
+
+	padding-left:570px;
+
+}
+
+
+
+#siteMap ul{
+
+	width:400px;
+
+	height:40px;
+
+	}
+
+#siteMap ul li{
+	float:left;
+}	
+
+#siteMap a:link{
+
+	color:#333;
+
+}
+
+#siteMap a:visited{color:#333;}
+
+#siteMap a:hover{color:#993399;}
+
+
+
+.copyRight{
+	clear:both;
+
+	width:100%;
+
+	height:15px;
+
+	color:#CCC;
+
+	font-size:0.85em;
+
+	background-color:#5c3f4c;
+
+	background-repeat:repeat-x;
+
+	text-align:center;
+
+	margin-top:60px;
+
+	}
+
+@media screen and (max-width:1174px){
+	#main_nav{
+	display:none;
+	}
+	.drawer drawer--right drawer-nav{
+		display:none;
+	}
+}
+@media screen and (min-width:1174px){
+	.drawer-toggle,.drawer-hamburger,.drawer--right,.drawer-nav{
+		display:none;
+	}
+}
