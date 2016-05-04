@@ -1,16 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="content-style-type" content="text/css" />
 <meta http-equiv="Page-Enter" content="revealTrans(duration=4,Transition=3)" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link rel="stylesheet" type="text/javascript" href="ir-js.js" />
 <link rel="stylesheet" type="text/css" href="css/font.css" media="all"/>
 <link rel="stylesheet" type="text/css" href="css/layout.css" media="all"/>
 <link rel="stylesheet" type="text/css" href="css/reset.css" media="all"/>
 <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <!-- Drawer -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -36,6 +40,9 @@ $(document).ready(function() {
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <!-- slider -->
 <link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/slick.less">
+<link rel="stylesheet" href="css/slick.scss">
+<link rel="stylesheet" href="css/slick-theme.less">
 <link rel="stylesheet" href="css/slick-theme.css">
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
@@ -43,10 +50,11 @@ $(document).ready(function() {
 <script src="js/slick.min.js"></script>
 <script type="text/javascript">
     var $j = $.noConflict(true);</script>
-<!-- slider -->
-
+<!-- slider_end -->
+<script src="https://use.typekit.net/ele7yuq.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
-<title>home</title>
+<title>Low-Light_home</title>
 <body>
 
     <!-- top-slider -->    
@@ -56,7 +64,9 @@ $j('.top-slider').slick({
 autoplay:true,
 autoplaySpeed:6000,
 dots:true,
-pauseOnHover:true
+pauseOnHover:true,
+fade: false,
+respondTo:'window'
 });
 }); 
 </script>
@@ -84,7 +94,6 @@ pauseOnHover:true
 <header>
 
 <div id="home_back">
-    <wrapper>
         <div id="hcwrapper">
             <div id="header">
                 <div id="logo" class="clearfix">
@@ -104,23 +113,43 @@ pauseOnHover:true
         </div><!--header -->
       </div><!--main_nav -->
         <!--top_slider -->
+        <div id="slide-bnr">
         <ul class="top-slider">
-      <li><img src="images/slide-bnr_ci.png" width="100%" height="auto" alt="message" /></li>
+      <li><img src="images/slide-bnr_ci.png" width="100%" height="auto" alt="Low-Light_CIimage"/></li>
             <li><a href="Release/index.html"><img src="images/slider_02.png" width="100%" height="auto"></a></li>
             <li><a href="Offer/index.html"><img src="images/bnr-offer.png" width="100%" height="auto"></a></li>
             </ul>
-    <div class="news_text">
-      <ul>
-        <li>2013.07.02</li>
-        <dd class="odd"><a href="https://itunes.apple.com/jp/app/lu-xing-ying-hui-huakuizu/id641017283?mt=8&uo=4" style="text-decoration:none;">iosアプリ：物語クイズ　【リリース開始】</a></dd>
-        <dt>2013.06.28</dt>
-        <dd class="even"><a href="https://itunes.apple.com/jp/app/wu-yukuizu-hua-wu-wei-wu-shang/id663671596?mt=8&uo=4" style="text-decoration:none;">iosアプリ：旅行英会話クイズ　【リリース開始】</a></dd>
-        <dt>2013.05.29</dt>
-        <dd class="odd"><a href="https://itunes.apple.com/jp/app/zao-yashi-suan-shubatoru/id622544924?mt=8&uo=4" style="text-decoration:none;">iosアプリ：早押し算数バトル　【リリース開始】</a></dd>
-        </dl>
-        <p class="news_menu"><a href="#" style="text-decoration:none">News&Infom　総合ページへ </a></p>
-      </div>
-</div>
+            </div>
+            <div id="news-info">
+                <ul class="news-info_wrap">
+                    <li class="news-title">News&amp;infomation
+                    </li>
+                    <li class="new-box1">New</li>
+                    <li class="new">2016/03/14　<span><a href="https://play.google.com/store/apps/details?id=ir.eng">大人の英会話android版をリリース</a></span>
+                    </li>
+                    <li class="new-box2">New</li>
+                    <li class="new">2016/02/20　<span><a href="https://play.google.com/store/apps/details?id=ir.math">1分で左脳を鍛える早押し計算ゲームandroid版をリリース</a></span>
+                    </li>
+                    <li class="new-box3">New</li>
+                    <li class="new">2016/01/04　<span><a href="https://play.google.com/store/apps/details?id=ir.eng2_t2">旅行英会話クイズandroid版をリリース</a></span>
+                    </li>
+                    <li class="info-More">More<span class="fa fa-chevron-right"><span class="fa fa-chevron-right"></span></li>
+                </ul>
+            </div>
+    
+  <!--works-title-->
+   <div id="works-title">
+       <ul class="works-wrap">
+           <li class="w">w</li>
+           <li class="en"></li>
+           <li class="orks">orks</li>
+           <li class="line"></li>
+       </ul>
+   </div>
+     
+      
+       
+        </div>
     </div><!--//hcwrapper -->
     <div id="fotter" class="clearfix">
       <div id="fotter_contents">
@@ -132,6 +161,7 @@ pauseOnHover:true
             <p class="compayTel">☎090-4089-9183</p>
             <p class="time">Time. 10:00-18:00/Mon-Fri</p>
             <div class="sns">
+            
         <!--fecebook -->
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -163,7 +193,8 @@ pauseOnHover:true
       
       <p class="copyRight">COPYLRIGHT@Indie Room.</p>
     </div>
-    
+   </div>
+</div> 
   </wrapper>
 </div></section>
 </body>

@@ -58,7 +58,7 @@ body{
 	}
 
 #logo{
-	padding:0 0 0  1.1em;
+	padding:0 0 0 3.1em;
 	float:left;
 	}
 
@@ -286,8 +286,68 @@ body{
 
 	}
 
+#news-info {
+    border: solid 1px #ccc;
+    padding:0 0 1em 0;
+    margin:0 auto 2em;
+    width:60%;
+}
 
+.news-title {
+    background-color:#191818;
+    color:#fff;
+    text-align:center;
+    padding:0.6em;
+    margin:0 0 0.4em 0;
+    font-size:1.6em;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.18em;
+}
 
+.new {
+    font-family: 'Noto Sans Japanese', serif;
+    padding:0.5em 1em 1em 0.2em;
+    margin: 1.2em 1.2em 0 5.6em;
+    border-bottom: solid 1px#CECECE;
+    width: auto;
+}
+.new a{
+    text-decoration:none;
+    color:#191818;
+    position: relative;
+	display: inline-block;
+	transition: .3s;
+}
+.new a::after{
+    position: absolute;
+	bottom: 0;
+	left: 50%;
+	content: '';
+	width: 0;
+	height: 1px;
+	background-color: #D879A4;
+	transition: .3s;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.new a:hover::after{
+    width: 100%;
+}
+.news-info_wrap {
+    padding:0;
+}
+
+.info-More {
+    text-align: right;
+    padding: 0 1em 0 0;
+    color: #191818;
+    font-family: "Astoria  Sans";
+    clear:both;
+}
+.info-More span{
+    padding:0 0.14em;
+    font-size: 0.1em;
+}
 #copy{
 
 	width:100%;
@@ -435,7 +495,9 @@ body{
 		*/
 
 }
-
+#slide-bnr {
+    margin:0 0 6em 0;
+}
 .news_text{
 
 	margin-top:205px;
@@ -2071,4 +2133,144 @@ form{
 	.drawer-toggle,.drawer-hamburger,.drawer--right,.drawer-nav{
 		display:none;
 	}
+}
+
+
+
+
+
+.new-box {
+    background-color:#E6E6E6;
+    color:#191818;
+    width:3em;
+    height:3em;
+    float:left;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    padding: 0.2em;
+    line-height:3em;
+    margin: 0.2em 1em 0 1em;
+    font-family: "Astoria  Sans";
+}
+
+.new1 {
+    font-family: 'Noto Sans Japanese', serif;
+    padding:0.5em 1em 1em 0.2em;
+    margin: 1.2em 0.4em 0 5.6em;
+    border-bottom: solid 1px#CECECE;
+    width: 38em;
+}
+
+.new-box1 {
+    background-color:#E6E6E6;
+    color:#191818;
+    width:3em;
+    height:3em;
+    float:left;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    padding: 0.2em;
+    line-height:3em;
+    margin: 0.2em 1em 0 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.new-box2 {
+    background-color:#E6E6E6;
+    color:#191818;
+    width:3em;
+    height:3em;
+    float:left;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    padding: 0.2em;
+    line-height:3em;
+    margin: 0.8em 1em 0 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.new-box3 {
+    background-color:#E6E6E6;
+    color:#191818;
+    width:3em;
+    height:3em;
+    float:left;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    padding: 0.2em;
+    line-height:3em;
+    margin: 0.8em 1em 0 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.works-wrap {
+  
+
+}
+
+.w {
+    float: left;
+    padding:0 0 0 0.02em;
+    line-height:1.05em;
+    width:1.1em;
+    text-align:center;
+    position:absolute;
+    color:#fff;
+    font-size:4.5em;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing:antialiased;
+}
+
+.orks {
+    line-height: 1.02em;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    color: #191818;
+    font-size:4.6em;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: solid 3px #191818;
+    clear: right;
+    width: 90%;
+    padding: 0.01em 0.2em 0.012em 1.2em;
+    position: absolute;
+}
+
+#works-title {
+    width: 90%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.en {
+  border-radius: 50%;
+  background-color: rgb(25, 23, 23);
+  width: 5em;
+  height: 5em;
+  z-index: 147;
+  margin: 0;
+  padding: 0;
+  float:left;
+}
+
+.line {
+  background-color: rgb(25, 23, 23);
+  position: absolute;
+  width: auto;
+  height: 3px;
+  z-index: 146;
+}
+
+.test {
+    color:#191818;
+    text-align:center;
+    padding:0.6em;
+    margin:0 0 0.4em 0;
+    font-size:1.6em;
+    font-family: "Astoria  Sans";
+    letter-spacing: 0.15em;
 }
