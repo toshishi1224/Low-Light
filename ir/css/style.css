@@ -126,7 +126,7 @@ body{
 }
 #main_nav ul li+li{
 	border-left: 0;
-    border-right: 1px solid #333;
+    border-right: 1px solid #555;
 }
 
 
@@ -2232,7 +2232,6 @@ form{
     color: #191818;
     font-size:4.6em;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: solid 3px #191818;
     clear: right;
     width: 90%;
     padding: 0.01em 0.2em 0.012em 1.2em;
@@ -2258,11 +2257,14 @@ form{
 }
 
 .line {
-  background-color: rgb(25, 23, 23);
+  background-color: #191818;
   position: absolute;
   width: auto;
   height: 3px;
   z-index: 146;
+  margin: 4.66em 2.18em;
+  float: left;
+  padding: 0.1em 48% 0.01em 42%;
 }
 
 .test {
@@ -2273,4 +2275,29 @@ form{
     font-size:1.6em;
     font-family: "Astoria  Sans";
     letter-spacing: 0.15em;
+}
+
+.worksarea {
+    width:70%;
+    height:auto;
+    margin:2.6em 14%;
+    clear:left;
+    padding:2.5em;
+    float: left;
+}
+
+.w-box {
+    width: 43%;
+    display: table-cell;
+    float: left;
+    padding: 0 0 23.5em;
+    margin: 0px 3em 3em 0;
+    background-color: #F5F5F5;
+}
+
+.works-boxs {
+    display: table;
+    margin: 0;
+    padding: 0;
+    width: 113%;
 }
